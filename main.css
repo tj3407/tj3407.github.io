@@ -1,0 +1,203 @@
+.jumbotron {
+    margin-bottom: 0;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.social-icons .fa {
+    font-size: 1.8em;
+}
+.social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+ 
+.social-icons.icon-circle .fa{ 
+    border-radius: 50%;
+}
+.social-icons .fa-facebook{background-color:black;} 
+.social-icons .fa-instagram{background-color:black;}
+.social-icons .fa-linkedin{background-color:black;} 
+.nav-pills>li>a.active,
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus {
+    background-color: black !important;
+    color:white !important;
+}
+h1 {
+    font-family: 'Paytone One', sans-serif;
+}
+p {
+   font-family: Gruppo;
+}
+
+body {
+    position: relative;
+    overflow:auto;
+}
+
+html,body{ 
+    height:100%;
+}
+
+#aboutme {
+    background-image: url("http://farm6.staticflickr.com/5586/14674466390_d3d7854b81_b.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    opacity: .8;
+    height: 100%;
+    /* -webkit-filter: grayscale(80%); Chrome, Safari, Opera */
+    /* filter: grayscale(20%); */
+}
+
+#projects {
+    color: white;
+    /* background-color: white; */
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_960_720.png");
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    /* background: repeating-linear-gradient(
+        -55deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 10px,
+        rgba(0, 0, 0, 0.3) 10px,
+        rgba(0, 0, 0, 0.3) 20px
+    ),
+    url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png); */
+}
+
+.card-header {
+    color: white;
+}
+
+.navbar-brand, .nav-link {
+    color: black !important;
+}
+
+.navbar { 
+    background-color: white !important;
+    padding: 10px;
+}
+#about {
+    padding: 20%;
+    filter: blur(0px);
+ }
+
+ #aboutme h1 {
+    color: white !important;
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 1;
+ }
+ #aboutme p {
+    color: white !important;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-shadow: none;
+    opacity: none;
+ }
+
+ .typewriter {
+    color: #fff;
+    font-family: monospace !important;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+ .contact {
+      background-color: black !important;
+  }
+
+.row {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.one {
+    background-image: url("http://c1.staticflickr.com/1/855/42966766645_afdb00b2d2_b.jpg");
+}
+
+.two {
+    background-image: url('https://c1.staticflickr.com/2/1791/30003094688_c8d8701b60_c.jpg');
+}
+
+.three {
+    background-image: url('http://c1.staticflickr.com/2/1820/43179657204_edb071e2ee_b.jpg');
+}
+
+.four {
+    background-image: url('http://c1.staticflickr.com/2/1780/43012221435_f1b03f96fa_b.jpg');
+}
+
+.divbutton {
+    color: white;
+}
+
+.card-body:hover {
+    background: rgba(99, 99, 99, 0.596);
+}
+
+.card-body button {
+    visibility: hidden;
+    border: 1px solid white;
+}
+
+.card-body p {
+    visibility: hidden;
+}
+
+.card-body:hover button, .card-body:hover p {
+    visibility: visible;
+}
