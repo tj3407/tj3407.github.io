@@ -101,13 +101,10 @@ html,body{
     background-color: white !important;
     padding: 10px;
 }
-#about {
-    padding: 20%;
-    filter: blur(0px);
- }
 
  #aboutme h1 {
-    color: white !important;
+    padding-top: 20%;
+    color: white;
     text-shadow: 1px 1px black;
     letter-spacing: 2px;
     font-family: 'Paytone One', sans-serif;
@@ -116,7 +113,7 @@ html,body{
     opacity: 1;
  }
  #aboutme p {
-    color: white !important;
+    color: white;
     text-shadow: 1px 1px black;
     font-size: 25px;
     font-family: 'IBM Plex Sans', sans-serif;
