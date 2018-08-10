@@ -72,7 +72,7 @@ html,body{
 #projects {
     color: white;
     /* background-color: white; */
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_960_720.png");
+    background-image: url("static/img/coding.png");
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
