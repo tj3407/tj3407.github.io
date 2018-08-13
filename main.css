@@ -112,10 +112,12 @@ html,body{
     font-size: 60px;
     opacity: 1;
  }
+ 
  #aboutme p {
     color: white;
     text-shadow: 1px 1px black;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2vw;
     font-family: 'IBM Plex Sans', sans-serif;
     text-shadow: none;
     opacity: none;
@@ -176,6 +178,10 @@ html,body{
 
 .four {
     background-image: url('http://c1.staticflickr.com/2/1780/43012221435_f1b03f96fa_b.jpg');
+}
+
+.five {
+    background-image: url('https://c1.staticflickr.com/2/1798/44007174821_878c4067d3_b.jpg');
 }
 
 .divbutton {
